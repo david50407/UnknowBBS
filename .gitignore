@@ -20,3 +20,4 @@ doc/
 # vim swp
 .*.swp
 *.swp
+.*.*.swp

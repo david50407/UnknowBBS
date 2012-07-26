@@ -5,7 +5,7 @@ def main
   @nets = [Network::Telnet.new(12000)]
 
   for n in @nets
-    n.listen { |c|
+    n.listen { |c, opt|
       c.puts "Hello !"
       c.puts "Time is #{Time.now}"
       c.close
